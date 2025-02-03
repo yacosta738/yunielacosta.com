@@ -88,8 +88,8 @@ importers:
         specifier: 1.50.0
         version: 1.50.0
       '@semantic-release/exec':
-        specifier: ^6.0.3
-        version: 6.0.3(semantic-release@24.2.0(typescript@5.6.3))
+        specifier: ^7.0.0
+        version: 7.0.2(semantic-release@24.2.0(typescript@5.6.3))
       '@tailwindcss/aspect-ratio':
         specifier: 0.4.2
         version: 0.4.2(tailwindcss@3.4.17)
@@ -1763,19 +1763,15 @@ packages:
     peerDependencies:
       semantic-release: '>=20.1.0'
 
-  '@semantic-release/error@3.0.0':
-    resolution: {integrity: sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==}
-    engines: {node: '>=14.17'}
-
   '@semantic-release/error@4.0.0':
     resolution: {integrity: sha512-mgdxrHTLOjOddRVYIYDo0fR3/v61GNN1YGkfbrjuIKg/uMgCd+Qzo3UAXJ+woLQQpos4pl5Esuw5A7AoNlzjUQ==}
     engines: {node: '>=18'}
 
-  '@semantic-release/exec@6.0.3':
-    resolution: {integrity: sha512-bxAq8vLOw76aV89vxxICecEa8jfaWwYITw6X74zzlO0mc/Bgieqx9kBRz9z96pHectiTAtsCwsQcUyLYWnp3VQ==}
-    engines: {node: '>=14.17'}
+  '@semantic-release/exec@7.0.2':
+    resolution: {integrity: sha512-RVlN8PBcxiVid73xW0L6EM6wFO2oIfkJjcTb1qBgvgwoFqdodMpUMBh7wzA+2cqWqKcEfRglD3KOj0UxKSJxAg==}
+    engines: {node: '>=20.8.1'}
     peerDependencies:
-      semantic-release: '>=18.0.0'
+      semantic-release: '>=24.1.0'
 
   '@semantic-release/github@11.0.1':
     resolution: {integrity: sha512-Z9cr0LgU/zgucbT9cksH0/pX9zmVda9hkDPcgIE0uvjMQ8w/mElDivGjx1w1pEQ+MuQJ5CBq3VCF16S6G4VH3A==}
@@ -7855,18 +7851,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/error@3.0.0': {}
-
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/exec@6.0.3(semantic-release@24.2.0(typescript@5.6.3))':
+  '@semantic-release/exec@7.0.2(semantic-release@24.2.0(typescript@5.6.3))':
     dependencies:
-      '@semantic-release/error': 3.0.0
+      '@semantic-release/error': 4.0.0
       aggregate-error: 3.1.0
       debug: 4.4.0
       execa: 5.1.1
-      lodash: 4.17.21
-      parse-json: 5.2.0
+      lodash-es: 4.17.21
+      parse-json: 8.1.0
       semantic-release: 24.2.0(typescript@5.6.3)
     transitivePeerDependencies:
       - supports-color
